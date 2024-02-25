@@ -63,7 +63,7 @@ function createTrendingPoster(movie){
     </div>
   </div>`
 
-    trendingMovieContainer.innerHTML += cardUI; 
+    trendingMovieContainer.innerHTML += cardUI; //Trending
 }
 
 function createTopRatedPoster(topMovie){
@@ -95,7 +95,7 @@ function createUpcomingPoster(upComingmovie){
   </div>
 </div>`
 
-UpcomingMovieContainer.innerHTML += cardUI; //toprated 
+UpcomingMovieContainer.innerHTML += cardUI; //Upcoming
 }
 
 
