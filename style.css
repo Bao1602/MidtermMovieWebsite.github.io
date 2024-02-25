@@ -11,7 +11,6 @@
     overflow-x: auto;
     white-space: nowrap; 
     height: 700px;
-    border: 1px solid #050505;
 }
 
 #upcoming{
@@ -19,12 +18,8 @@
     overflow-x: auto;
     white-space: nowrap; 
     height: 700px;
-    border: 1px solid #050505;
-}
-
-.card-body{
-    height: 0;
 }
 .text{
     overflow: hidden;
 }
+
