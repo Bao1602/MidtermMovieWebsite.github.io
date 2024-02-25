@@ -1,0 +1,30 @@
+
+#TRENDING {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap; 
+    height: 700px;
+}
+
+#Top_rated {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap; 
+    height: 700px;
+    border: 1px solid #050505;
+}
+
+#upcoming{
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap; 
+    height: 700px;
+    border: 1px solid #050505;
+}
+
+.card-body{
+    height: 0;
+}
+.text{
+    overflow: hidden;
+}
