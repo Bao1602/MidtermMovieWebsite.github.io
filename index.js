@@ -52,13 +52,13 @@ function genreDatatoGenre(id){
 
 function createTrendingPoster(movie){
     let genre = (movie.genre_ids).map(genreDatatoGenre);
-    const cardUI = `<div class="card" style="width: 18rem; display: inline-block;gap: 10rem">
+    const cardUI = `<div class="card "style="width: 18rem;display: inline-block;">
     <img class="card-img-top" src=${"https://image.tmdb.org/t/p/w500" + movie.poster_path}"} alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">${movie.original_title}</h5>   
       <p class="card-text">${movie.release_date}</p>
       <p class="text">${movie.overview}</p>
-      <p class="card-text">Genre: ${genre}</p>
+      <p class="text">Genre: ${genre}</p>
       <a href="#" class="btn btn-primary">Buy Ticket</a>
     </div>
   </div>`
@@ -74,7 +74,7 @@ function createTopRatedPoster(topMovie){
     <h5 class="card-title">${topMovie.original_title}</h5>   
     <p class="card-text">${topMovie.release_date}</p>
     <p class="text">${topMovie.overview}</p>
-    <p class="card-text">Genre: ${genre}</p>
+    <p class="text">Genre: ${genre}</p>
     <a href="#" class="btn btn-primary">Buy Ticket</a>
   </div>
 </div>`
@@ -90,7 +90,7 @@ function createUpcomingPoster(upComingmovie){
     <h5 class="card-title">${upComingmovie.original_title}</h5>   
     <p class="card-text">${upComingmovie.release_date}</p>
     <p class="text">${upComingmovie.overview}</p>
-    <p class="card-text">Genre: ${genre}</p>
+    <p class="text">Genre: ${genre}</p>
     <a href="#" class="btn btn-primary">Buy Ticket</a>
   </div>
 </div>`

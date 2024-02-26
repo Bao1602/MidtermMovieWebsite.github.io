@@ -1,25 +1,28 @@
 
 #TRENDING {
-    display: block;
+    display: flex;
+    flex-wrap: nowrap;
     overflow-x: auto;
-    white-space: nowrap; 
-    height: 700px;
+    height: auto; 
 }
 
 #Top_rated {
-    display: block;
+    display: flex;
+    flex-wrap: nowrap;
     overflow-x: auto;
-    white-space: nowrap; 
-    height: 700px;
+    height: auto; 
 }
 
 #upcoming{
-    display: block;
+    display: flex;
+    flex-wrap: nowrap;
     overflow-x: auto;
-    white-space: nowrap; 
-    height: 700px;
+    height: auto; 
+    margin-bottom: 50px; 
 }
-.text{
-    overflow: hidden;
+
+.card {
+    flex: 0 0 auto;
+    margin-right: 10px;
 }
 
